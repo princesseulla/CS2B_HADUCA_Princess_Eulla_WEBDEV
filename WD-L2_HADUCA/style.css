@@ -1,0 +1,79 @@
+
+/*this are my css stylessheet*/
+body{
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin:0;
+    padding:0;
+    background-image: url(img/bg.jpg);
+    background-position: center;
+    background-size:contain;
+
+}  
+header nav{
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding:10px 20px;
+    text-align: center;
+    border: 5px solid darkmagenta;
+    border-radius: 25px 25px 25px 25px;
+} 
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:40px;
+    
+}
+nav ul li a{ 
+    color:black;
+    text-decoration: none;
+    text-align: center;
+
+}
+img{
+    width: 100px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin:20px auto;
+    text-align: left;
+    background-color:violet;
+    color:black;
+    width:500px;
+}
+form input, form button{
+    margin:5px 0;
+    padding:8px;
+
+}
+
+.page{
+    background-color: pink;
+    color:black;
+    border:20px 20px 20px 20px;
+    display:inline-block;
+    border: 5px solid darkmagenta; 
+    border-radius: 25px 25px 25px 25px;
+}
+.login{
+    color:white;
+}
+.signup{
+    color: white;
+}
+.create{
+    color: white;
+}
+.login2{
+    color:white;
+}
+form button:hover{
+    border:5px solid darkmagenta;
+    background-color: darkmagenta;
+}
