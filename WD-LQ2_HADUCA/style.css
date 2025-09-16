@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color:#333;
+    text-align: center;
+    min-height: 100%;
+    flex-direction: column;
+    overflow-x:hidden;
+    display: flex;
+
+}
+.header-ko {
+    background-color: lightgray;
+    height: 25%;
+    margin-bottom: 10px;
+    float:left;
+}
+.header-content {
+    text-align: center;
+    vertical-align: auto;
+}
+
+div.nav-bar {
+    background-color:antiquewhite;
+    border-radius: 5px;
+    padding:10px 0px 10px 0px;
+    position:sticky;
+}
+ul.nav-items {
+    width:100%;
+    gap:60px;
+    border:5px solid white;
+    background-color:white;
+}
+li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+    
+}
+a {
+    color:black;
+    text-decoration-line: none;
+    gap:60px;
+}
+.right-icon {
+    float:left;
+    position:fixed;
+    margin-left: auto;
+
+}
+
+.side-nav {
+    width: 80px;
+    padding: 10px 20px;
+    border-right: 1px solid #ccc;
+    float: right;
+    position: fixed;  
+    height:100vh;
+    
+}
+.side-nav {
+    width: 250px;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    position: relative;
+    height: 100vh;
+
+
+}
+
+.profile-section {
+    text-align: center;
+    height: 80%;
+
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-link {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.name, .username, .user-location,
+.user-birth, .current-date {
+    margin: 4px 0;
+    font-size: 14px;
+    color: black;
+}
+
+.news-source-section {
+    margin-top: 20px;
+}
+
+
+.friends-section {
+    margin-top: 20px;
+}
+
+.friends-list {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.friends-list img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.add-friend-btn {
+    margin-top: 10px;
+    padding: 8px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+img .feed2{
+    width: 80%;
+    height: auto;
+}
+
+
+
