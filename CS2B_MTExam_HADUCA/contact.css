@@ -1,0 +1,87 @@
+/*this is the css for contact html*/
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(assets/beach.jpg);
+    background-position: center;
+    background-repeat:round;
+
+}
+header{
+    color:black;
+    padding: 10px;
+    align-items: center;
+   background-color: burlywood;
+   border: 4px solid black;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin:0 auto;
+    text-align: left;
+    background-color:burlywood;
+    color:black;
+    width:500px; 
+    border: 4px solid black;
+}
+.form input, form button{
+    margin:5px 0;
+    padding:8px;
+}
+.form input, form button:hover{
+    color:black;
+    background-color:burlywood;
+}
+.form input, form button{
+    margin:5px 0;
+    padding:8px;
+}
+nav a{
+    color: black;
+}
+button:hover{
+    color: black;
+    background-color: crimson;
+
+}
+button, .buttons:hover {
+    color: black;
+    background-color: crimson;
+}
+iframe{
+    display: block;
+    margin:0 auto;
+    border: 4px solid black;
+}
+.info{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+aside{
+    flex:0 0 20%;
+    border:5px solid black;
+    padding:10px;
+    box-sizing:border-box;
+    background-color:bisque ;
+    margin: 0 auto;
+    width:20%;
+}
+aside img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.contact{
+    text-align: center;
+}
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding:10px
+}
