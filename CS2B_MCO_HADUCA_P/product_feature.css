@@ -1,3 +1,4 @@
+ /* this is the css of our product features */
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:0;
@@ -108,3 +109,4 @@ form button:hover{
     background-color: crimson;
     color: black;
 }
+
