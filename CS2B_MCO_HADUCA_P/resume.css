@@ -1,0 +1,187 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin:0;
+    line-height: 1.6;
+    color:#333;
+    float:left;
+    width: 100%;
+    background-color:#DAD0D1;
+    overflow-x: hidden;
+}
+
+header{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    padding:10px 10px;
+    background-color:#DAD0D1;
+    border:2px solid black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    overflow:hidden; 
+    border:1px solid black; 
+
+
+    
+}
+nav ul li a{ 
+    display: flex;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center; 
+}
+.me{
+    color:#000000;
+    float: left;
+}
+aside{
+    display: flex;
+    float:right;
+    margin-top:0;
+    padding:10px 20px;
+    width:20%;
+    position:relative;
+    height: 269vh;
+    background-color: #DD5025;
+    color:black;
+    border: 2px solid black;
+    flex-direction: column;
+    gap:45px;
+    text-align: center;
+}
+    
+footer{
+    width:100%;
+    border:2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+    
+}
+
+.myskills{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap:10px;
+    justify-content: left;
+    border: 2px solid black;
+    text-align: center;
+} 
+.acts{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    justify-content: left;
+    border:2px solid black;
+    text-align: center;
+    
+
+}
+.acts img{
+    display: block;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    border:2px solid black;
+}
+
+.myskills img {
+    display: block;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.aboutme{
+    border: 2px solid black;
+}
+.birth{
+    display: flex;
+    text-align: center;
+}
+.git{
+    display: flex;
+    text-align: end;
+}
+.pic{
+    width:18%;
+    border-radius: 50%;
+    float: right;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.cal img{
+    width:50px;
+    border-radius: 30%;
+    justify-content: center;
+    
+}
+iframe{
+    width:30%;
+    justify-content: left;
+    border: 1px solid black;
+}
+form button:hover{
+    background-color:crimson;
+    color: black;
+}
+
+.rianekills{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap:10px;
+    justify-content: left;
+    border: 2px solid black;
+    text-align: center;
+} 
+.rianekills img {
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.activities{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    gap: 10px;
+    justify-content: left;
+    border:2px solid black;
+    text-align: center;
+    
+
+}
+
+.activities img{
+    display: flex;
+    width:200px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    border:2px solid black;
+}
+.lar{
+    width:18%;
+    border-radius: 50%;
+    float: right;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.lariane{
+    border:2px solid black;
+}
+
+

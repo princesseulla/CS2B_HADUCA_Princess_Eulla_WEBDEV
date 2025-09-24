@@ -1,0 +1,92 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+    padding:0;
+    width:100%;
+    line-height: 1.6;
+    color:#333;
+    overflow-x:hidden;
+    justify-content:center ;
+    justify-items: center;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+    text-align: center;
+    width:100%;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+    overflow:hidden; 
+    border:1px solid black; 
+
+    
+}
+nav ul li a{ 
+    display: flex;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+.pr{
+    color:black;
+}
+.logo{
+    width:100%;
+}
+.pro{
+    text-align: center;
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width:950%;
+  height: 50%;
+  margin: 20 auto;
+  border: 2px solid black;
+  border-radius: 25x 25x 25x 25x;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.products img{
+    width:100%;
+    gap:10px;
+}
+.item{
+  background-color:coral;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height:500px;
+  margin:0;
+  color:black;
+  border:2px solid black;
+}
+button:hover{
+    color: black;
+    background-color: crimson;
+
+}
+.sale{
+    text-align: center;
+}
+footer{
+    width:100%;
+    border:2px solid black;
+    text-align: center;
+}
