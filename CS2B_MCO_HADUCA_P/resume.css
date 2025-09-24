@@ -1,3 +1,4 @@
+ /* this is the css of our resume */
 body{
     font-family:'Times New Roman', Times, serif;
     margin:0;
@@ -183,5 +184,6 @@ form button:hover{
 .lariane{
     border:2px solid black;
 }
+
 
 
