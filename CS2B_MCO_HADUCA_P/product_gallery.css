@@ -1,3 +1,4 @@
+ /* this is the product gallery of our shop */
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:0;
@@ -89,4 +90,5 @@ footer{
     width:100%;
     border:2px solid black;
     text-align: center;
+
 }
