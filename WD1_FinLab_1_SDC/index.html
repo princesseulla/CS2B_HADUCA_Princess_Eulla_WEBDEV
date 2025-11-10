@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="RSC/css/bootstrap.min.css">
+    <script src="RSC/js/bootstrap.min.js"></script>
+
+    <title>Carousel</title>
+</head>
+<body><!--i used bootstrap css to connect and design -->
+
+    <!--this is my Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Patofito</a>
+            <button class="navbar-toggler" type="button" 
+            data-bs-toggle="collapse" data-bs-target="#navbarburger" 
+            aria-controls="navbarburger" aria-expanded="false" 
+            aria-label="Burger Nav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarburger">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <b>HOME</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <b>DANCES</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <b>ABOUT</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- this is my Body carousel with 3 images-->
+    <div id="carouselCaption" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/p1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Rice Terraces</h5>
+                    <p>Agricultural landscape carved into mountains.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/p2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Chocolate Hills</h5>
+                    <p>Unique cone-shaped hills that turn
+                        into chocolate brown during the dry season.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/p3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Coron Palawan</h5>
+                    <p>Stunning natural landscapes. Area that offers mix of adventures 
+                        and relaxation.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaption" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCaption" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- my Body description-->
+    <div class="row">
+        <!--Short Description about philippines-->
+        <div class="col-6 text-center py-5"></div>
+            <div>
+                <h1>Welcome to the Philippines</h1>
+                <h2>It is more CORRUPT in the Philippines!</h2>
+            </div>
+
+            <div>
+                <h6>Welcome to the Philippines, where the government officials are crocodiles!
+                    We are living in poverty and corruption!
+                </h5>
+            </div>
+            <!---Image-->
+            <div class="col-6">
+                <img src="img/p3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+
+        <!--Body Short Description of my product food with images-->
+    <div class="row px-5 py-5 bg-light justify-content-center">
+        <div class="card mx-2" style="width: 18rem;">
+            <img src="img/p4.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 card-title>Cookie</h5>
+                <p class="card-text">Sweet and tasty with chocolate inside</p>
+                <a href="#" class="btn btn-success">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img src="img/p5.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 card-title>Potato chips</h5>
+                <p class="card-text">Potato chips with cheesy creamy.</p>
+                <a href="#" class="btn btn-success">Add to Cart</a>
+            </div>
+        </div>
+        <div class="card mx-2" style="width: 18rem;">
+            <img src="img/p6.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+                <h5 card-title>Cutie bread</h5>
+                <p class="card-text">Cutie bread with meat and vegetables inside.</p>
+                <a href="#" class="btn btn-success">Add to Cart</a>
+            </div>
+        </div>
+    <!-- my Footer-->
+    <div class="py-2 bg-dark text-light text-center">
+        <p>Developed by: Princess Eulla Haduca</p>
+    </div>
+
+    <!--Import Js-->
+    <script src="rsc/js/bootstrap.min.js"></script>
+</body>
+</html>
